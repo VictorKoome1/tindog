@@ -1,0 +1,112 @@
+body {font-family: "Monteserrat";}
+
+#title { background-color: #ff4c68;
+color: #fff;}
+
+h1 {font-family: "Montserrat";
+font-size: 3rem;
+line-height: 1.5;
+font-weight: 900;
+     }
+     h2 {font-size: 2.5rem;
+     font-weight: bold;}
+
+     h3 {font-family: 'Ubuntu', sans-serif;
+   font-weight: bold;}
+
+   p {font-family: 'Ubuntu', sans-serif;
+ color: grey;}
+
+ .icon {color: #ef8172;
+ margin-bottom: 1rem;}
+
+ .icon:hover {color: #ff4c68;}
+
+     .nav-link {font-family: 'Montserrat', sans-serif;
+   padding: 0 18px; }
+
+.navbar {padding: 0 0 4.5rem;}
+
+.download-button {margin: 5% 3% 5% 0;
+font-family: 'Montserrat', sans-serif;
+font-weight: lighter;}
+
+
+   .navbar-brand {font-family: "Ubuntu";
+ font-size: 2.5rem;
+font-weight: bold;
+padding-bottom: 40px;}
+
+
+.container-fluid {
+  padding : 3% 15%;
+}
+
+.image-title {width: 20%;
+transform: rotate(25deg);
+position: absolute;
+
+}
+
+
+.fa-solid fa-circle-check {width: 40px;}
+
+/* features */
+#features {padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+
+
+}
+
+.feature-row {padding: 5%;
+text-align: center;}
+
+/* testimonials */
+#testimonials {background-color: #ef8172;
+text-align: center;
+
+color: #fff;
+font-family: "Ubuntu";
+}
+.dog-image {width: 20%;
+  border-radius: 100%;
+}
+.testimonial-image {width: 20%;
+  border-radius: 100%;}
+.carousel-item {padding: 7% 15%;}
+
+#press {background-color: #ef8172;
+text-align: center;}
+.press-logo {width: 14%;
+margin: 20px 20px 50px;}
+
+.btn {font-family: "Ubuntu";}
+
+#pricing {padding: 100px;
+text-align: center;
+font-family: "Ubuntu";}
+
+.pricing-column {padding: 3% 2%;}
+
+@media (max-width: 1028px) {
+    .image-title {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+    #title {text-align: center;}
+  }
+
+#cta {background-color: #ff4c68;
+text-align: center;
+padding: 7% 15%;
+color: #fff;
+}
+
+.cta-heading {font-size: 3rem;
+line-height: 1.5;}
+ #footer {padding: 7% 15%;
+ text-align: center;}
+
+.social-icon {margin: 20px 10px;}
